@@ -37,6 +37,3 @@ private void OnFormShown(object? sender, EventArgs e)
 
 All code done in Visual Studio 2019 using .NET 5 and C# 9
 
-#### Base off
-
-https://social.technet.microsoft.com/wiki/contents/articles/17107.c-convert-an-ico-file-to-a-bmp.aspx
