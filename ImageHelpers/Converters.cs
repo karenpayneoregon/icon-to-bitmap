@@ -14,12 +14,12 @@ namespace ImageHelpers
         public static Bitmap FromIconToBitmap(Icon icon)
         {
             
-            var bmp = new Bitmap(icon.Width, icon.Height);
-            using var gp = Graphics.FromImage(bmp);
+            var bitmap = new Bitmap(icon.Width, icon.Height);
+            using var gp = Graphics.FromImage(bitmap);
             gp.Clear(Color.Transparent);
             gp.DrawIcon(icon, new Rectangle(0, 0, icon.Width, icon.Height));
             
-            return bmp;
+            return bitmap;
             
         }
         /// <summary>
