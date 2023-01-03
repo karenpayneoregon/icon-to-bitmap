@@ -1,5 +1,4 @@
-﻿using System;
-using System.Drawing;
+﻿using System.Drawing;
 using System.IO;
 
 namespace ImageHelpers
@@ -47,6 +46,4 @@ namespace ImageHelpers
         }
       
     }
-
-
 }
